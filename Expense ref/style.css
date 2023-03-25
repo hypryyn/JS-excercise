@@ -1,0 +1,81 @@
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: green;
+}
+
+span {
+    font-size: 1.4em;
+}
+
+.date-amount-input {
+    margin-top: 0.5em;
+}
+
+input {
+    height: 28px;
+}
+
+.name {
+    padding-right: 5em;
+}
+
+.amount {
+    padding-right: 15.35em;
+}
+
+.amount-text {
+    margin-left: 0.4em;
+}
+
+.date {
+    padding-right: 18.8em;
+    
+}
+
+.add-btn {
+    margin-top: 0.9em;
+    padding: 0.6em;
+    font-size: 1.1em;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-btn:hover, .add-btn:focus {
+    cursor: pointer;
+    background: rgb(3, 177, 3);
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 50%;
+    height: 80px;
+}
+
+tr {
+    height: 40px;
+}
+
+table, th, td{
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-collapse: collapse;
+}
+
+.empty-text {
+    font-size: 0.93em;
+}
+
+.if-empty {
+    background: rgba(0, 0, 0, 0.055);
+}
