@@ -1,10 +1,21 @@
 function printEven(arr) {
-    for (var i=0;i<arr.length;i++){
-      if(arr[i]%2==0){
-        console.log(arr[i]); //print even number
-      }  
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 == 0) {
+      console.log(arr[i]); //print even number
     }
   }
-  var arr = [13,23,12,45,22,48,66,100]
-  
-  printEven(arr) //12 22 48 66 100
+}
+var arr = [13, 23, 12, 45, 22, 48, 66, 100]
+
+printEven(arr) //12 22 48 66 100
+
+function isEven(array) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 == 0) {
+      console.log(array[i]);
+    }
+  }
+}
+var array = [35, 22, 11, 8989, 2, 0]
+
+isEven(array);
