@@ -7,12 +7,13 @@ function power(num, pow) {
 }
 console.log(power(4, 3));
 
+
+
 function numPower(num, pow) {
-    var res = 1; //return 1 for pow=0
-    for (var i = 0; i < pow; i++) {
+    let res = 1;
+    for (let j = 0; j < pow; j++) {
         res = res * num;
     }
     return res;
 }
-console.log(numPower(4, 3)); //64
-console.log(numPower(16, 2)); //256
+console.log(numPower(5, 3));
