@@ -1,12 +1,26 @@
-function findDup(arr) {
-    var arrDup=[]
-    for(var i=0; i<arr.length; i++){
-       if(arr.indexOf(arr[i])!=i&&arrDup.indexOf(arr[i])==-1){
-         arrDup.push(arr[i]);
-       }
-    }
-    return arrDup;
-  }
-  var arr = [4,2,34,4,1,12,1,4];
+// function findDup(arr) {
+//     var arrDup=[]
+//     for(var i=0; i<arr.length; i++){
+//        if(arr.indexOf(arr[i])!=i&&arrDup.indexOf(arr[i])==-1){
+//          arrDup.push(arr[i]);
+//        }
+//     }
+//     return arrDup;
+//   }
+//   var arr = [4,2,34,4,1,12,1,4];
   
-  console.log(findDup(arr)); //[4, 1]
+//   console.log(findDup(arr)); //[4, 1]
+
+function findDuplicate(arr) {
+  let arrDup = []
+  for (let i=0; i< arr.length;i++) {
+    if (arr.indexOf(arr[i]) != i && arrDup.indexOf(arr[i]) == -1){
+      arrDup.push(arr[i]);
+    }
+  }
+  return arrDup;
+}
+
+let arr = [4,2,5,6,2,6,44,46,1];
+
+console.log(findDuplicate(arr));
