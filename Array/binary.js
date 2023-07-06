@@ -22,4 +22,4 @@ const num = parseInt(6);
 
 const result = num.toString(2);
 
-console.log('Binary:' + ' ' + result);
+console.log('Binary:' + ' ' + result);gi
