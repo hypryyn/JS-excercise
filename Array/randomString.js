@@ -12,3 +12,8 @@ function generateString(length) {
 }
 
 console.log(generateString(5));
+
+// 
+
+const randomChar = Math.random().toString(36).substring(2,7);
+console.log(randomChar);
