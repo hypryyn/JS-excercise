@@ -14,3 +14,15 @@ for (let key in student) {
     console.log(key + " - " +  value); 
 } 
 
+//other method
+
+const recepient = { 
+    name: 'John',
+    age: 20,
+    hobbies: ['reading', 'games', 'coding'],
+};
+
+// using for...of loop
+for (let [key, value] of Object.entries(recepient)) {
+    console.log(key + " - " +  value);
+}
