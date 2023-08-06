@@ -44,3 +44,20 @@ console.log(array);
 
 const result = emptyArray(array);
 console.log(result);
+
+// using splice
+
+function emptyArray2(arr2) {
+
+    // substituting new array
+    arr.splice(0, arr.length);
+    
+    return arr2;
+}
+
+const array2 = [1, 2 ,3];
+console.log(array2);
+
+// call the function
+const result2 = emptyArray2(array2);
+console.log(result2);
