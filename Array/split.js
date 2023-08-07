@@ -50,14 +50,31 @@ console.log(result);
 function emptyArray2(arr2) {
 
     // substituting new array
-    arr.splice(0, arr.length);
+    arr2.splice(0, arr.length);
     
     return arr2;
 }
 
-const array2 = [1, 2 ,3];
+const array2 = [4, 5 ,6];
 console.log(array2);
 
 // call the function
 const result2 = emptyArray2(array2);
 console.log(result2);
+
+// set the length to 0
+
+function emptyArray3(arr3) {
+
+    // setting array length to 0
+    arr3.length = 0;
+    
+    return arr3;
+}
+
+const array3 = [7, 8 ,9];
+console.log(array3);
+
+// call the function
+const result3 = emptyArray3(array3);
+console.log(result3);
