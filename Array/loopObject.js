@@ -12,4 +12,17 @@ for (let key in student) {
     value = student[key];
 
     console.log(key + " - " +  value); 
-} 
+}
+
+// v2
+const student2 = { 
+    name: 'John',
+    age: 20,
+    hobbies: ['reading', 'games', 'coding'],
+};
+
+// using Object.entries
+// using for...of loop
+for (let [key, value] of Object.entries(student2)) {
+    console.log(key + " - " +  value);
+}
