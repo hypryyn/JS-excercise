@@ -14,3 +14,16 @@ for(let key in student) {
 }
 
 console.log(count);
+
+// suing ().keys
+
+const student1 = { 
+    name: 'John',
+    age: 20,
+    hobbies: ['reading', 'games', 'coding'],
+};
+
+// count the key/value
+const result1 = Object.keys(student1).length;
+
+console.log(result1);
