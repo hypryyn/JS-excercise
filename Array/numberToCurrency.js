@@ -21,3 +21,9 @@ const result3 =  (2500).toLocaleString('en-US', {
 });
 
 console.log(result3);
+
+// v4
+
+const result = 1234.5678.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+
+console.warn('$ ' + result);
