@@ -17,7 +17,7 @@ console.log(result2);
 
 const result3 =  (2500).toLocaleString('en-US', {
     style: 'currency',
-    currency: 'USD'
+    currency: 'JPY'
 });
 
 console.log(result3);
