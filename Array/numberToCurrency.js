@@ -1,6 +1,6 @@
 const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
-    currency: 'USD'
+    currency: 'JPY'
 });
 
 formatter.format(2500);
@@ -9,7 +9,7 @@ formatter.format(2500);
 
 const number2 = 1234.5678;
 
-const result2 = '$ ' + number.toFixed(2);
+const result2 = '$ ' + number2.toFixed(2);
 
 console.log(result2);
 
