@@ -22,3 +22,18 @@ if(result) {
 else {
     console.warn(`The string does not starts with "he".`);
 }
+
+// v3
+
+const string3 = 'hello world';
+
+const pattern3 = /^he/;
+
+let result3 = pattern3.test(string3);
+
+if(result3) {
+    console.warn('The string starts with "he".');
+}
+else {
+    console.warn(`The string does not starts with "he".`);
+}
