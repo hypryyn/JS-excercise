@@ -27,7 +27,7 @@ else {
 
 const string3 = 'hello world';
 
-const pattern3 = /^he/;
+const pattern3 = /^hell/;
 
 let result3 = pattern3.test(string3);
 
