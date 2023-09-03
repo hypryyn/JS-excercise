@@ -11,7 +11,7 @@ function removeItemFromArray1(array1, n1) {
     return newArray;
 }
 
-const result1 = removeItemFromArray1([1, 2, 3 , 4 , 5], 2);
+const result1 = removeItemFromArray1([1, 2, 3 , 4 , 5], 5);
 
 console.log(result1);
 
